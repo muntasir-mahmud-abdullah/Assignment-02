@@ -1,8 +1,10 @@
 @media screen and (max-width:576px) {
     .menu-hamburger a{
         display: block;
+        left: 100%;
     
     }
+
     section {
         max-width: 90%;
         margin: auto;
@@ -13,10 +15,17 @@
     .header-section {
         /* padding: 20px; */
     }
+    .nav-container {
+        display:block;
+    }
+    .header-title h1{
+        margin-top: -20px;
+    }
+
     .header-content h1 {
         font-size: 2.2rem;
         color: #fff;
-        margin-top: 60px;
+        margin-top: 20px;
     }
     .header-container {
         flex-direction: column;
@@ -26,6 +35,8 @@
         gap: 20px;
         justify-content: center;
     }
+
+
     .btn-primary {
         border: 2px solid rgba(128, 128, 128, 0.268);
         padding:10px 14px;
@@ -42,12 +53,12 @@
         height: max-content;
         padding:10px;
     }
-    .header-image .button-2 {
-        left: 240px;
-        top: 250px;
+    .header-image .div_2 {
+        left: 40%;
+        top: 40%;
     }
-    .header-image .button-1 {
-        left:10px;
+    .header-image .div_1 {
+        left:-10%;
         top: 70%;
     }
     .header-image .text{
@@ -122,10 +133,10 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    .team-content img {
+    /* .team-content img {
         height: 350px;
         object-fit: contain;
-    }
+    } */
     .team-content h6 {
         font-size: 1.1rem;
     }

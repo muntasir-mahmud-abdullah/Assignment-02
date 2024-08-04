@@ -46,9 +46,10 @@ header {
     position: relative;
 }
 
+
 nav ul {
     display: flex;
-    gap: 30px;
+    /* gap: 30px; */
     border: 2px solid rgba(128, 128, 128, 0.268);
     
     border-radius: 50px;
@@ -81,9 +82,13 @@ nav ul li:hover {
 
 }
 
+
     .header-title h1,.footer-title h1{
         color: #c53f0e;
         font-size: 2.5rem;
+    }
+    .header-title {
+        margin-right: auto;
     }
 
     .header-container {
@@ -108,34 +113,58 @@ nav ul li:hover {
     .header-image {
         position: relative;
     }
-    .header-image .button-1,.header-image .button-2 {
-        width: 300px;
-        height: 180px;
+    .header-image .div_1,.header-image .div_2 {
+        width: 280px;
+        height: 120px;
         border-radius: 15px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color:rgba(255, 255, 255, 0.1);
         position: absolute;
         text-align: left;
-        padding:40px;
-        display: block;
+        padding:0 20px;
         border: none;
     }
-    .header-image .button-2 {
-        left: 50%;
-        top: 50%;
+    .header-image .div_2 {
+        width: 230px;
+        height: 120px;
     }
-    .header-image .button-1 {
-        left:-10px;
+    .header-image .div_1 {
+        transform: scale(.9);
+        left:-30%;
         top: 70%;
     }
+    .header-image .div_2 {
+        left: 40%;
+        top: 30%;
+    }
+    .header-image .div_1 {
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        gap: 10px;
+    }
+    .header-image .div_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transform: scale(.9);
+    }
+    .div_1-circle .circle {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color:#c53f0e;
+        display: inline-block;
+    }
+
     .header-image .text{
         color: gray;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .header-image .number{
-        font-size: 4rem;
+        font-size: 2.5rem;
         color: #fff;
         font-weight: bold;
-        margin-bottom: 20px;
+        margin-bottom:5px;
     }
 
     /* habit section styles */
@@ -163,6 +192,8 @@ nav ul li:hover {
         width: 100%;
         border-radius: 50%;
         margin-bottom: 30px;
+        border:1px solid #FFF;
+
     }
     .habit-content h6{
         font-size: 1.5rem;
@@ -220,7 +251,7 @@ nav ul li:hover {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    background-color: #2b2626;
+    background-color: #1A1C1D;
     gap: 20px;
     padding: 20px;
     border-radius: 20px;
@@ -233,6 +264,8 @@ nav ul li:hover {
 .team-content img {
     width: 100%;
     border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
 }
 .team-content h6{
     font-size: 1.5rem;
@@ -245,6 +278,8 @@ nav ul li:hover {
 /* footer styles */
 .footer-section {
     padding: 30px 0;
+    background-color: #1A1A1A;
+    margin-top: 90px;
 }
 .footer-container {
     display: flex;
