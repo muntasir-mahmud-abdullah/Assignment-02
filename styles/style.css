@@ -355,6 +355,47 @@ nav ul li:hover {
     left: 10%;
 }
 
+/* social section styles  */
+.social-section {
+    display: flex;
+    gap: 10%;
+    margin-top: 80px;
+    padding: 20px 10px;
+
+}
+.social-video {
+    width: 50%;
+    height: 100%;
+}
+.social-video iframe {
+    width: 90%;
+    border: none;
+    height: 260px;
+    padding: 10px;
+    margin-left:30px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.484);
+}
+
+.social-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+.social-content h1 {
+    color: #fff;
+    font-size: 2.7rem;
+}
+.social-content p {
+    color: rgb(175, 166, 166);
+}
+.social-content button {
+    width: 160px;
+    border-radius: 5px;
+}
 /* footer styles */
 footer {
     background-color: #1A1A1A;
