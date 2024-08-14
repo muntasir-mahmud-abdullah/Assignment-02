@@ -6,12 +6,16 @@
     <title>Assignment-02</title>
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/reponsive.css" />
-    <script src="https://kit.fontawesome.com/223957e9df.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/223957e9df.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
       <section class="header-section">
-        <div class="nav-container">f
+        <div class="nav-container">
+          f
           <div class="header-title">
             <h1><em>Fitness</em></h1>
           </div>
@@ -24,7 +28,9 @@
             </ul>
             <div class="menu-hamburger">
               <!-- <a href="#">Menu</a> -->
-            <span><a href="#"><i class="fa-solid fa-bars"></i></a> </span> 
+              <span
+                ><a href="#"><i class="fa-solid fa-bars"></i></a>
+              </span>
             </div>
           </nav>
         </div>
@@ -60,7 +66,7 @@
               </div>
               <div class="div_1-content">
                 <h1 class="number">350+</h1>
-              
+
                 <p class="text">Video tutorial</p>
               </div>
             </div>
@@ -133,6 +139,93 @@
           <img src="./images/run.jpg" alt="" />
         </div>
       </section>
+      <div class="bmi-container">
+        <section class="bmi-section">
+          <div class="chart-section">
+            <table>
+              <caption>
+                <h1>BMI Calculator Chart</h1>
+              </caption>
+              <thead>
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5-24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0-29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 and above</td>
+                  <td>Obese</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="calculator-section">
+            <div class="calculator-container">
+              <h1>Calculate your BMI</h1>
+              <p>
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym.
+              </p>
+              <form action="">
+                <div class="user-details">
+                  <div class="input-box">
+                    <input
+                      type="number"
+                      name=""
+                      placeholder="Height/cm"
+                      id=""
+                    />
+                  </div>
+                  <div class="input-box">
+                    <input
+                      type="number"
+                      name=""
+                      placeholder="Weight/kg"
+                      id=""
+                    />
+                  </div>
+                  <div class="input-box">
+                    <input type="number" name="" placeholder="Age" id="" />
+                  </div>
+                  <div class="input-box">
+                    <select name="" id="">
+                      <option value="">Sex</option>
+                      <option value="">Male</option>
+                      <option value="">Female</option>
+                    </select>
+                  </div>
+                  <div class="input-box activity">
+                    <select name="" id="">
+                      <option value="">Select an activity factor</option>
+                      <option value="">Light</option>
+                      <option value="">Medium</option>
+                    </select>
+                  </div>
+                  <div class="btn-calculate">
+                    <button class="btn-primary">Calculate</button>
+                  </div>
+
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <section class="team-section">
         <div class="team-section-title">
           <h1 class="title-primary">Meet Our Team</h1>
@@ -197,11 +290,8 @@
             <h6>Services</h6>
           </div>
         </div>
-        <hr class="hr-line">
-        <h3>
-            All right reserved Fitness @2024
-        </h3>
-        
+        <hr class="hr-line" />
+        <h3>All right reserved Fitness @2024</h3>
       </section>
     </footer>
   </body>
