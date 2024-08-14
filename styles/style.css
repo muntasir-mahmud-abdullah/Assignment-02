@@ -28,6 +28,10 @@ section {
     transition: 1s;
     cursor: pointer;
 }
+.div_1,.div_2:hover {
+    cursor: pointer;
+}
+
 .title-primary {
     font-size: 4.5rem;
     color: #fff;
@@ -234,6 +238,8 @@ nav ul li:hover {
     .join-image img{
         width: 100%;
         border-radius: 20px;
+        object-fit: none;
+        object-position: 70% 30%;
     }
 
     /* Bmi calculator section styles */

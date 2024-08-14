@@ -33,8 +33,6 @@
         gap: 20px;
         justify-content: center;
     }
-
-
     .btn-primary {
         border: 2px solid rgba(128, 128, 128, 0.268);
         padding:10px 14px;
@@ -188,6 +186,7 @@
     }
     .social-video {
         width: 100%;
+        margin-bottom: 20px;
     }
     .social-video iframe {
         margin-left: 20px;
@@ -206,5 +205,12 @@
     }
     .social-content button {
         margin: auto;
+    }
+    .social-section {
+        display: flex;
+        gap: 10%;
+        margin-top: 40px;
+        padding: 20px 10px;
+    
     }
 }
