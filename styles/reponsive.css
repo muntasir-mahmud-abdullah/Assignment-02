@@ -151,4 +151,60 @@
     .footer-content h6{
         font-size: 1.2rem;
     }
+    .bmi-section {
+      flex-direction: column;
+      gap: 20px;
+         }
+         .chart-section {
+            width:100%;
+            justify-content: center;
+        }
+        .calculator-container {
+            padding: 10px;
+           
+        }
+        .bmi-container {
+            padding-bottom:20px;
+            margin-bottom: 0;
+           
+        }
+        .user-details .input-box input,.user-details select, .user-details button{
+            width: 100%;
+            font-size: 1rem;
+            padding:10px;
+            border-radius: 10px;
+            color: rgb(135, 126, 126);
+            outline: none;
+            border: none;
+            background: #393939;
+            
+        }
+        .team-section-title {
+            margin-top: 30px;
+        }
+    .social-section {
+        flex-direction: column;
+        gap:40px;
+    }
+    .social-video {
+        width: 100%;
+    }
+    .social-video iframe {
+        margin-left: 20px;
+    }
+    .social-content {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-section {
+        margin-top: 20px;
+        padding: 0;
+    }
+    .social-content h1 {
+        color: #fff;
+        font-size: 2.1rem;
+    }
+    .social-content button {
+        margin: auto;
+    }
 }
