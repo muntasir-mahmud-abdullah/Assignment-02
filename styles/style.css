@@ -190,14 +190,14 @@ nav ul li:hover {
         text-align: center;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 5%;
+        width: 20%;
     }
     .habit-content img{
         width: 100%;
         border-radius: 50%;
         margin-bottom: 30px;
         border:1px solid #FFF;
-
     }
     .habit-content h6{
         font-size: 1.5rem;
@@ -205,6 +205,7 @@ nav ul li:hover {
     }
     .habit-content p{
         font-size: 1.1rem;
+        color: #908484;
     }
     /* join-section styles */
     .join-section {
@@ -425,7 +426,7 @@ footer {
 }
 .footer-title p{
     color: gray;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 25px;
     text-align: left;
 
@@ -437,16 +438,16 @@ footer {
     gap: 10px;
 }
 .footer-content h1{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
 }
 .footer-content h6{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: gray;
 }
 .footer-section h3{
     color: gray;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;margin-top: 30px;
 }
 
